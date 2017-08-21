@@ -6,7 +6,7 @@ An API exposes Services for accessing Web Courses, designed and developed in a R
 The entities of the API are Students and Teachers. Students can register and join courses. Teachers can register, create and teach courses. 
 
 Some of the presented specifications are:
-JAX-RS (Jersey implemantation), JPA (EclipseLink implementation), EJB, CDI, JWT (Auth2), Bean Validation 
+JAX-RS (Jersey implementation), JPA (EclipseLink implementation), EJB, CDI, JWT (Auth2), Bean Validation 
 
 Media Types that is fully supported by this RESTful API are:
 JSON, XML and MULTIPART FORM DATA (for the uploaded files)
