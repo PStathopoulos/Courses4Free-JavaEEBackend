@@ -15,17 +15,17 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class Link implements Serializable{
 	
 	
-    // ==========================================
-    // =                CONSTANTS               =
-    // ==========================================
+        // ==========================================
+        // =                CONSTANTS               =
+        // ==========================================
 	
 	
 	private static final long serialVersionUID = 1L;
 	
 	
-    // ==========================================
-    // =                ATTRIBUTES              =
-    // ==========================================
+        // ==========================================
+        // =                ATTRIBUTES              =
+        // ==========================================
 	
 	
 	@Id
@@ -36,9 +36,9 @@ public class Link implements Serializable{
 	private String rel;
 	
 	
-    // ==========================================
-    // =                CONSTRUCTORS            =
-    // ==========================================
+        // ==========================================
+        // =                CONSTRUCTORS            =
+        // ==========================================
 	
 	public Link(){
 		
@@ -50,9 +50,9 @@ public class Link implements Serializable{
 	}
 	
 	
-    // ===========================================
-    // =             GETTERS & SETTERS           =
-    // ===========================================
+       // ===========================================
+       // =             GETTERS & SETTERS           =
+       // ===========================================
 	
 	public Long getId() {
 		return id;
@@ -73,10 +73,10 @@ public class Link implements Serializable{
 	}
 
 	
-    // ==========================================
-    // =  METHODS: hashCode, equals, toString   =
-    // ==========================================
-	
+       // ==========================================
+       // =  METHODS: hashCode, equals, toString   =
+       // ==========================================
+	 
 	
 	@Override
 	public int hashCode() {
