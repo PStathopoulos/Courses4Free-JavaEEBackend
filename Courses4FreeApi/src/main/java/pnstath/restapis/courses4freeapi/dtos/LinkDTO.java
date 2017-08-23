@@ -11,15 +11,15 @@ public class LinkDTO implements Serializable{
 	
 
 	// ==========================================
-    // =                CONSTANTS               =
-    // ==========================================
+        // =                CONSTANTS               =
+        // ==========================================
 	
 	private static final long serialVersionUID = 1L;
 	
 	
 	// ==========================================
-    // =                ATTRIBUTES              =
-    // ==========================================
+        // =                ATTRIBUTES              =
+        // ==========================================
 	
 	
 	private Long id;
@@ -28,8 +28,8 @@ public class LinkDTO implements Serializable{
 	
 	
 	// ==========================================
-    // =                CONSTRUCTORS            =
-    // ==========================================
+        // =                CONSTRUCTORS            =
+        // ==========================================
 	
 	
 	public LinkDTO(){
@@ -47,8 +47,8 @@ public class LinkDTO implements Serializable{
 	
 	
 	// ===========================================
-    // =             GETTERS & SETTERS           =
-    // ===========================================
+        // =             GETTERS & SETTERS           =
+        // ===========================================
 	
 	public Long getId() {
 		return id;
@@ -68,8 +68,8 @@ public class LinkDTO implements Serializable{
 	}
 	
 	// ==========================================
-    // =          METHODS:  toString            =
-    // ==========================================
+        // =          METHODS:  toString            =
+        // ==========================================
 
 	@Override
 	public String toString() {
