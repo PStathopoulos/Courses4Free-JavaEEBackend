@@ -18,17 +18,17 @@ import pnstath.restapis.courses4freeapi.model.Link;
 public class CourseDTO implements Serializable {
 	
 	
-	// ==========================================
-    // =                CONSTANTS               =
-    // ==========================================
+      // ==========================================
+      // =                CONSTANTS               =
+      // ==========================================
 	
 	
 	private static final long serialVersionUID = 1L;
 	
 	
-	// ==========================================
-    // =                ATTRIBUTES              =
-    // ==========================================
+       // ==========================================
+       // =                ATTRIBUTES              =
+       // ==========================================
 	
 	
 	private Long id;
@@ -86,7 +86,7 @@ public class CourseDTO implements Serializable {
 	
 	
 	// ==========================================
-    // =          BUSINESS METHODS: fromDTO     =
+        // =          BUSINESS METHODS: fromDTO     =
 	// ==========================================
 
 	//Convert DTO to Entity via Setters and Persist Entity to Database
@@ -105,9 +105,9 @@ public class CourseDTO implements Serializable {
 		return courseEntity;
 	}
 	
-	// ===========================================
-    // =             GETTERS & SETTERS           =
-    // ===========================================
+       // ===========================================
+       // =             GETTERS & SETTERS           =
+       // ===========================================
 	
 	
 	public Long getId() {
@@ -162,7 +162,7 @@ public class CourseDTO implements Serializable {
 		this.photoUrl = photoUrl;
 	}
 	
-    public Date getDateCreated() {
+        public Date getDateCreated() {
 		return dateCreated;
 	}
 
@@ -190,8 +190,8 @@ public class CourseDTO implements Serializable {
 	
 	
 	// ==========================================
-    // =  METHODS:  toString                    =
-    // ==========================================
+        // =      METHODS:  toString                =
+        // ==========================================
 	
 
 	@Override
