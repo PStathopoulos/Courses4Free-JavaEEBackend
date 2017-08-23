@@ -30,7 +30,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 	public class Teacher extends User implements Serializable {
 	
 	
-	// ==========================================
+    // ==========================================
     // =                CONSTANTS               =
     // ==========================================
 	
@@ -41,7 +41,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 	public static final String COUNT_ALL = "Teacher.countAll";
 	
 	
-	// ==========================================
+    // ==========================================
     // =                ATTRIBUTES              =
     // ==========================================
 	
@@ -54,13 +54,13 @@ import javax.xml.bind.annotation.XmlRootElement;
 	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy="teacher", orphanRemoval = true)
 	private Set<Course> courses = new HashSet<Course>();
 	@ManyToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
-    private Set<Student> students = new HashSet<Student>();
+        private Set<Student> students = new HashSet<Student>();
 	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
 	@JoinColumn(name="Link_FK")
 	private Set <Link> links = new HashSet<Link>();
 	
 	
-	// ==========================================
+    // ==========================================
     // =                CONSTRUCTORS            =
     // ==========================================
 	
@@ -75,7 +75,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 	}
 
 	
-	// ===========================================
+    // ===========================================
     // =             GETTERS & SETTERS           =
     // ===========================================
 	
@@ -112,7 +112,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 		this.links = links;
 	}
 	
-	
+    // ==========================================
+    // =  METHODS: hashCode, equals, toString   =
+    // ==========================================
+		
 	@Override
 	public int hashCode() {
 		final int prime = 31;
