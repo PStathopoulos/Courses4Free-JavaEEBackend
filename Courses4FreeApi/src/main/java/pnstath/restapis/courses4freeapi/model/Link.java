@@ -15,7 +15,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class Link implements Serializable{
 	
 	
-	// ==========================================
+    // ==========================================
     // =                CONSTANTS               =
     // ==========================================
 	
@@ -23,7 +23,7 @@ public class Link implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	
-	// ==========================================
+    // ==========================================
     // =                ATTRIBUTES              =
     // ==========================================
 	
@@ -36,7 +36,7 @@ public class Link implements Serializable{
 	private String rel;
 	
 	
-	// ==========================================
+    // ==========================================
     // =                CONSTRUCTORS            =
     // ==========================================
 	
@@ -50,7 +50,7 @@ public class Link implements Serializable{
 	}
 	
 	
-	// ===========================================
+    // ===========================================
     // =             GETTERS & SETTERS           =
     // ===========================================
 	
@@ -73,7 +73,7 @@ public class Link implements Serializable{
 	}
 
 	
-	// ==========================================
+    // ==========================================
     // =  METHODS: hashCode, equals, toString   =
     // ==========================================
 	
