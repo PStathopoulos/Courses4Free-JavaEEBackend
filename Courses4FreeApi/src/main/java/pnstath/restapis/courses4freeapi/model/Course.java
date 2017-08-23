@@ -39,7 +39,7 @@ import org.hibernate.validator.constraints.NotBlank;
 public class Course implements Serializable {
 
 	
-	// ==========================================
+    // ==========================================
     // =                CONSTANTS               =
     // ==========================================
 	
@@ -53,7 +53,7 @@ public class Course implements Serializable {
 	public static final String COUNT_ALL = "Course.CountAll";
 		
 	
-	// ==========================================
+    // ==========================================
     // =                ATTRIBUTES              =
     // ==========================================
 	
@@ -91,7 +91,7 @@ public class Course implements Serializable {
 	private Set <Link> links = new HashSet<Link>();
 	
 	
-	// ==========================================
+    // ==========================================
     // =               CONSTRUCTORS             =
     // ==========================================
 	
@@ -108,7 +108,7 @@ public class Course implements Serializable {
 	}
 
 	
-	// ===========================================
+    // ===========================================
     // =             GETTERS & SETTERS           =
     // ===========================================
 	
@@ -200,7 +200,7 @@ public class Course implements Serializable {
 	}
 	
 	
-	// ==========================================
+    // ==========================================
     // =  METHODS: hashCode, equals, toString   =
     // ==========================================
 	
