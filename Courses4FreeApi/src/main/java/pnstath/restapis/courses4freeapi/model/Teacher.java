@@ -30,9 +30,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 	public class Teacher extends User implements Serializable {
 	
 	
-    // ==========================================
-    // =                CONSTANTS               =
-    // ==========================================
+       // ==========================================
+       // =                CONSTANTS               =
+       // ==========================================
 	
 	
 	private static final long serialVersionUID = 1L;	
@@ -41,9 +41,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 	public static final String COUNT_ALL = "Teacher.countAll";
 	
 	
-    // ==========================================
-    // =                ATTRIBUTES              =
-    // ==========================================
+       // ==========================================
+       // =                ATTRIBUTES              =
+       // ==========================================
 	
 	
 	@Column(name = "Years_Experience")
@@ -60,9 +60,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 	private Set <Link> links = new HashSet<Link>();
 	
 	
-    // ==========================================
-    // =                CONSTRUCTORS            =
-    // ==========================================
+       // ==========================================
+       // =                CONSTRUCTORS            =
+       // ==========================================
 	
 	
 	public Teacher(){	
@@ -75,9 +75,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 	}
 
 	
-    // ===========================================
-    // =             GETTERS & SETTERS           =
-    // ===========================================
+       // ===========================================
+       // =             GETTERS & SETTERS           =
+       // ===========================================
 	
 
 	public Double getYearsExperience() {
@@ -112,9 +112,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 		this.links = links;
 	}
 	
-    // ==========================================
-    // =  METHODS: hashCode, equals, toString   =
-    // ==========================================
+      // ==========================================
+      // =  METHODS: hashCode, equals, toString   =
+      // ==========================================
 		
 	@Override
 	public int hashCode() {
