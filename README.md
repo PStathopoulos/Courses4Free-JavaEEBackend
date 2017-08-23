@@ -13,6 +13,6 @@ JSON, XML and MULTIPART FORM DATA (for the uploaded files)
 
 -Maven Build Tool is used for the building operation of the whole project
 
--Payara Server for deployment
+-Payara Application Server for deployment
 
 -Eclipse IDE for development
