@@ -22,17 +22,17 @@ import org.hibernate.validator.constraints.NotBlank;
     public abstract class User implements Serializable {
 	
 	
-    // ==========================================
-    // =                CONSTANTS               =
-    // ==========================================
+       // ==========================================
+       // =                CONSTANTS               =
+       // ==========================================
 	
 	
 	private static final long serialVersionUID = 1L;
 	
 	
-    // ==========================================
-    // =                ATTRIBUTES              =
-    // ==========================================
+       // ==========================================
+       // =                ATTRIBUTES              =
+       // ==========================================
 	
 	
 	@Id
@@ -54,17 +54,17 @@ import org.hibernate.validator.constraints.NotBlank;
         @Size (min = 3, max = 14, message = "Username must contain at least 3 number and at most 14 number of characters")
 	private String username;
         @XmlElement
-       @XmlReadOnly
-       @Column(name = "Password", unique = true,  nullable = false)
-       @Pattern(regexp="((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{6,20})", 
-       message = "Password must have at least 6 characters and at most 20, must contain lowercase and uppercase letters, "
+        @XmlReadOnly
+        @Column(name = "Password", unique = true,  nullable = false)
+        @Pattern(regexp="((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{6,20})", 
+        message = "Password must have at least 6 characters and at most 20, must contain lowercase and uppercase letters, "
     		+ "digits from 0 to 9, one special symbols in the list '@#$%' ")
-       private String password;
+        private String password;
     
     
-    // ==========================================
-    // =                CONSTRUCTORS            =
-    // ==========================================
+       // ==========================================
+       // =                CONSTRUCTORS            =
+       // ==========================================
    
     
 	public User(){		
@@ -79,9 +79,9 @@ import org.hibernate.validator.constraints.NotBlank;
 	}
 	
 	
-    // ==========================================
-    // =             GETTERS & SETTERS          =
-    // ==========================================
+       // ==========================================
+       // =             GETTERS & SETTERS          =
+       // ==========================================
 	
 
 	public Long getId() {
