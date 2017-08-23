@@ -24,16 +24,16 @@ public class StudentDTO implements Serializable{
 	
 	
 	// ==========================================
-    // =                CONSTANTS               =
-    // ==========================================
+        // =                CONSTANTS               =
+        // ==========================================
 	
 	
 	private static final long serialVersionUID = 1L;	
 	
 	
 	// ==========================================
-    // =                ATTRIBUTES              =
-    // ==========================================
+        // =                ATTRIBUTES              =
+        // ==========================================
 	
 	
 	private Long id;
@@ -43,25 +43,25 @@ public class StudentDTO implements Serializable{
 	@NotBlank(message = "The Last Name must not be blank")
 	private String lastName;
 	@Pattern(regexp="^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$", message = "This is not a valid email adress")
-    private String email;
-    @Size (min = 3, max = 14, message = "Username must contain at least 3 number and at most 14 number of characters")
+        private String email;
+        @Size (min = 3, max = 14, message = "Username must contain at least 3 number and at most 14 number of characters")
 	private String username;
-    @XmlElement
-    @XmlReadOnly
-    @Pattern(regexp="((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{6,20})", 
-    message = "Password must have at least 6 characters and at most 20, must contain lowercase and uppercase letters, "
+        @XmlElement
+        @XmlReadOnly
+        @Pattern(regexp="((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{6,20})", 
+        message = "Password must have at least 6 characters and at most 20, must contain lowercase and uppercase letters, "
     		+ "digits from 0 to 9, one special symbols in the list '@#$%' ")
 	private String password;
-    private String favouriteSubject;
+        private String favouriteSubject;
 	
-    private Set<CourseDTO> courses = new HashSet<CourseDTO>();	
-    private Set<TeacherDTO> teachers = new HashSet<TeacherDTO>();
+        private Set<CourseDTO> courses = new HashSet<CourseDTO>();	
+        private Set<TeacherDTO> teachers = new HashSet<TeacherDTO>();
 	private Set<LinkDTO> links = new HashSet<LinkDTO>();
 	
 	
 	// ==========================================
-    // =                CONSTRUCTORS            =
-    // ==========================================
+        // =                CONSTRUCTORS            =
+        // ==========================================
 	
 	
 	public StudentDTO(){		
@@ -100,7 +100,7 @@ public class StudentDTO implements Serializable{
 	
 	
 	// ==========================================
-    // =          BUSINESS METHODS: fromDTO     =
+        // =          BUSINESS METHODS: fromDTO     =
 	// ==========================================
 
 	/*Convert DTO to Entity via Setters and Persist Entity to Database*/
@@ -123,8 +123,8 @@ public class StudentDTO implements Serializable{
 	
 		
 	// ===========================================
-    // =             GETTERS & SETTERS           =
-    // ===========================================
+        // =             GETTERS & SETTERS           =
+        // ===========================================
     
 	
 	public Long getId() {
@@ -206,8 +206,8 @@ public class StudentDTO implements Serializable{
 	
 	
 	// ==========================================
-    // =          METHODS:  toString            =
-    // ==========================================
+        // =          METHODS:  toString            =
+        // ==========================================
 	
 
 	@Override
