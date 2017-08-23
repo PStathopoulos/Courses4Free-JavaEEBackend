@@ -38,16 +38,16 @@ public class CourseResource {
 	
 	
 	// =======================================
-    // =           INJECTION POINTS          =
-    // =======================================
+        // =           INJECTION POINTS          =
+        // =======================================
 
 	@Inject
 	private CourseService courseService;
 	
 	
 	// =======================================
-    // =         ENDPOINT/RESOURCE METHODS   =
-    // =======================================
+        // =         ENDPOINT/RESOURCE METHODS   =
+        // =======================================
 	
     
 	// Fetching all the available courses
