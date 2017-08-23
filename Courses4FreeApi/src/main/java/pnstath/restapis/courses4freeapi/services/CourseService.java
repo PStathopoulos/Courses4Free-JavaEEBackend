@@ -29,8 +29,8 @@ public class CourseService {
 	
 	
 	// =======================================
-    // =           INJECTION POINTS          =
-    // =======================================
+        // =           INJECTION POINTS          =
+        // =======================================
 
 	
 	@PersistenceContext(unitName = "testrest")
@@ -38,10 +38,10 @@ public class CourseService {
 	
 	
 	// =======================================
-    // =         DAO BUSINESS METHODS        =
-    // =======================================
+        // =         DAO BUSINESS METHODS        =
+        // =======================================
 	
-    // DAO method for accessing all the available courses from the database
+        // DAO method for accessing all the available courses from the database
 	public List<CourseDTO> getAllCourses() {
 		List<CourseDTO> coursesDTOs = new ArrayList<CourseDTO>();
 		
@@ -95,7 +95,7 @@ public class CourseService {
 	}
 	
 	// DAO method for accessing the available courses in paginated way
-    public List<CourseDTO> getCoursesPaginated(int start, int pageSize) {	
+        public List<CourseDTO> getCoursesPaginated(int start, int pageSize) {	
     	List<CourseDTO> coursesDTOs = new ArrayList<CourseDTO>();
     	
     	// Execute query in order count the number of the available courses
@@ -122,7 +122,7 @@ public class CourseService {
 		return coursesDTOs;	
 	}
     
-    // DAO method for accessing the available courses in paginated way by specified page number
+        // DAO method for accessing the available courses in paginated way by specified page number
 	public List<CourseDTO> getCoursesByPageNumber(int pageNumber, int pageSize) {
 		List<CourseDTO> coursesDTOs = new ArrayList<CourseDTO>();
 		
