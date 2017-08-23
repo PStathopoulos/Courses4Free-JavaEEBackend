@@ -40,8 +40,8 @@ public class TeacherResource {
 	
 	
 	// =======================================
-    // =           INJECTION POINTS          =
-    // =======================================
+        // =           INJECTION POINTS          =
+        // =======================================
 	
 	
 	@Inject
@@ -49,8 +49,8 @@ public class TeacherResource {
 	
 	
 	// =======================================
-    // =         ENDPOINT/RESOURCE METHODS   =
-    // =======================================
+        // =         ENDPOINT/RESOURCE METHODS   =
+        // =======================================
     
 	// Fetching all the available teachers
 	@GET
