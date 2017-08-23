@@ -4,10 +4,22 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class ErrorMessage {
-
+        
+	
+	// ==========================================
+        // =                ATTRIBUTES              =
+        // ==========================================
+	
+	
 	private String errorMessage;
 	private int errorCode;
 	private String documentation;
+	
+	
+	// ==========================================
+        // =               CONSTRUCTORS             =
+        // ==========================================
+	
 	
 	public ErrorMessage() {
 		
@@ -18,6 +30,12 @@ public class ErrorMessage {
 		this.errorCode = errorCode;
 		this.documentation = documentation;
 	}
+	
+	
+	// ===========================================
+        // =             GETTERS & SETTERS           =
+        // ===========================================
+	
 	public String getErrorMessage() {
 		return errorMessage;
 	}
