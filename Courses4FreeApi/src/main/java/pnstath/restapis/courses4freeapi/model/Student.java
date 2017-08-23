@@ -30,9 +30,9 @@ import javax.xml.bind.annotation.XmlTransient;
 public class Student extends User implements Serializable  {
 	
 	
-    // ==========================================
-    // =                CONSTANTS               =
-    // ==========================================
+      // ==========================================
+      // =                CONSTANTS               =
+      // ==========================================
 	
 	
 	private static final long serialVersionUID = 1L;	
@@ -41,9 +41,9 @@ public class Student extends User implements Serializable  {
 	public static final String COUNT_ALL = "Student.countAll";
 	
 	
-    // ==========================================
-    // =                ATTRIBUTES              =
-    // ==========================================
+       // ==========================================
+       // =                ATTRIBUTES              =
+       // ==========================================
 	
 	
 	@Column(name = "Favourite_Subject")
@@ -59,8 +59,8 @@ public class Student extends User implements Serializable  {
 	
 	
 	// ==========================================
-    // =                CONSTRUCTORS            =
-    // ==========================================
+        // =                CONSTRUCTORS            =
+        // ==========================================
 	
 	
 	public Student(){		
@@ -73,8 +73,8 @@ public class Student extends User implements Serializable  {
 	
 	
 	// ===========================================
-    // =             GETTERS & SETTERS           =
-    // ===========================================
+        // =             GETTERS & SETTERS           =
+        // ===========================================
     
 	
 	public String getFavouriteSubject() {
@@ -111,9 +111,9 @@ public class Student extends User implements Serializable  {
 	}
 	
 	
-    // ==========================================
-    // =  METHODS: hashCode, equals, toString   =
-    // ==========================================
+       // ==========================================
+       // =  METHODS: hashCode, equals, toString   =
+       // ==========================================
 	
 	
 	@Override
