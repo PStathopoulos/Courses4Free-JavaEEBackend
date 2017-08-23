@@ -38,8 +38,8 @@ public class StudentResource {
 
 	
 	// =======================================
-    // =           INJECTION POINTS          =
-    // =======================================
+        // =           INJECTION POINTS          =
+        // =======================================
 	
 	
 	@Inject
@@ -47,8 +47,8 @@ public class StudentResource {
 	
 	
 	// =======================================
-    // =         ENDPOINT/RESOURCE METHODS   =
-    // =======================================
+        // =         ENDPOINT/RESOURCE METHODS   =
+        // =======================================
 	
     
 	// Fetching all the available students
