@@ -39,9 +39,9 @@ import org.hibernate.validator.constraints.NotBlank;
 public class Course implements Serializable {
 
 	
-    // ==========================================
-    // =                CONSTANTS               =
-    // ==========================================
+       // ==========================================
+       // =                CONSTANTS               =
+       // ==========================================
 	
 	
 	private static final long serialVersionUID = 1L;
@@ -53,9 +53,9 @@ public class Course implements Serializable {
 	public static final String COUNT_ALL = "Course.CountAll";
 		
 	
-    // ==========================================
-    // =                ATTRIBUTES              =
-    // ==========================================
+       // ==========================================
+       // =                ATTRIBUTES              =
+       // ==========================================
 	
 	
 	@Id
@@ -91,9 +91,9 @@ public class Course implements Serializable {
 	private Set <Link> links = new HashSet<Link>();
 	
 	
-    // ==========================================
-    // =               CONSTRUCTORS             =
-    // ==========================================
+       // ==========================================
+       // =               CONSTRUCTORS             =
+       // ==========================================
 	
 	
 	public Course() {
@@ -108,9 +108,9 @@ public class Course implements Serializable {
 	}
 
 	
-    // ===========================================
-    // =             GETTERS & SETTERS           =
-    // ===========================================
+       // ===========================================
+       // =             GETTERS & SETTERS           =
+       // ===========================================
 	
 	
 	public Long getId() {
@@ -165,7 +165,7 @@ public class Course implements Serializable {
 		this.photoUrl = photoUrl;
 	}
 	
-    public Date getDateCreated() {
+        public Date getDateCreated() {
 		return dateCreated;
 	}
 
@@ -200,9 +200,9 @@ public class Course implements Serializable {
 	}
 	
 	
-    // ==========================================
-    // =  METHODS: hashCode, equals, toString   =
-    // ==========================================
+       // ==========================================
+       // =  METHODS: hashCode, equals, toString   =
+       // ==========================================
 	
 
 	@Override
