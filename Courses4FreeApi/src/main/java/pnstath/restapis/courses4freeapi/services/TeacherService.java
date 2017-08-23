@@ -38,8 +38,8 @@ public class TeacherService {
 	
 	
 	// =======================================
-    // =           INJECTION POINTS          =
-    // =======================================
+        // =           INJECTION POINTS          =
+        // =======================================
 
 	@PersistenceContext(unitName = "testrest")
 	private EntityManager entityManager;
@@ -49,8 +49,8 @@ public class TeacherService {
 
 	
 	// =======================================
-    // =          DAO BUSINESS METHODS       =
-    // =======================================
+        // =          DAO BUSINESS METHODS       =
+        // =======================================
 	
     
 	// DAO method for accessing all the available students from the database
