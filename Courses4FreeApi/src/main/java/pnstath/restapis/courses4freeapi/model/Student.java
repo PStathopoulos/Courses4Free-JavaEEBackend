@@ -41,7 +41,7 @@ public class Student extends User implements Serializable  {
 	public static final String COUNT_ALL = "Student.countAll";
 	
 	
-	// ==========================================
+    // ==========================================
     // =                ATTRIBUTES              =
     // ==========================================
 	
@@ -50,9 +50,9 @@ public class Student extends User implements Serializable  {
 	private String favouriteSubject;
 	
 	@ManyToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE}, mappedBy = "students")
-    private Set<Course> courses = new HashSet<Course>();	
+        private Set<Course> courses = new HashSet<Course>();	
 	@ManyToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
-    private Set<Teacher> teachers;
+        private Set<Teacher> teachers;
 	@OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
 	@JoinColumn(name="Link_FK")
 	private Set <Link> links = new HashSet<Link>();
@@ -111,7 +111,7 @@ public class Student extends User implements Serializable  {
 	}
 	
 	
-	// ==========================================
+    // ==========================================
     // =  METHODS: hashCode, equals, toString   =
     // ==========================================
 	
