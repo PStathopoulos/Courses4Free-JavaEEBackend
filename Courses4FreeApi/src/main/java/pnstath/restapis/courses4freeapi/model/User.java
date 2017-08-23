@@ -22,7 +22,7 @@ import org.hibernate.validator.constraints.NotBlank;
     public abstract class User implements Serializable {
 	
 	
-	// ==========================================
+    // ==========================================
     // =                CONSTANTS               =
     // ==========================================
 	
@@ -30,7 +30,7 @@ import org.hibernate.validator.constraints.NotBlank;
 	private static final long serialVersionUID = 1L;
 	
 	
-	// ==========================================
+    // ==========================================
     // =                ATTRIBUTES              =
     // ==========================================
 	
@@ -49,17 +49,17 @@ import org.hibernate.validator.constraints.NotBlank;
 	private String lastName;
 	@Column(name = "Email", unique = true, nullable = false)
 	@Pattern(regexp="^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$", message = "This is not a valid email adress")
-    private String email;
-    @Column(name = "Username", unique = true, nullable = false)
-    @Size (min = 3, max = 14, message = "Username must contain at least 3 number and at most 14 number of characters")
+        private String email;
+        @Column(name = "Username", unique = true, nullable = false)
+        @Size (min = 3, max = 14, message = "Username must contain at least 3 number and at most 14 number of characters")
 	private String username;
-    @XmlElement
-    @XmlReadOnly
-    @Column(name = "Password", unique = true,  nullable = false)
-    @Pattern(regexp="((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{6,20})", 
-    message = "Password must have at least 6 characters and at most 20, must contain lowercase and uppercase letters, "
+        @XmlElement
+       @XmlReadOnly
+       @Column(name = "Password", unique = true,  nullable = false)
+       @Pattern(regexp="((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{6,20})", 
+       message = "Password must have at least 6 characters and at most 20, must contain lowercase and uppercase letters, "
     		+ "digits from 0 to 9, one special symbols in the list '@#$%' ")
-	private String password;
+       private String password;
     
     
     // ==========================================
@@ -79,7 +79,7 @@ import org.hibernate.validator.constraints.NotBlank;
 	}
 	
 	
-	// ==========================================
+    // ==========================================
     // =             GETTERS & SETTERS          =
     // ==========================================
 	
