@@ -115,7 +115,7 @@ public class TeacherService {
 				.path(CourseResource.class).build().toString();
 		
 		// Build the link to student entities
-		String studentsUri = uriInfo.getBaseUriBuilder().path(TeacherResource.class).path(teacherId)
+		String studentsUri = uriInfo.getBaseUriBuilder().path(StudentResource.class).path(teacherId)
 				.path(StudentResource.class).build().toString();
 		
 		// Add links to the list particular of links
