@@ -123,7 +123,7 @@ public class TeacherResource {
 		return Response.ok(courseDTO).build();
 	}
 
-	// Fetching courses of a specified by id teacher
+	// Fetching students of a specified by id teacher
 	@GET
 	@Path("/{teacherId}/students")
 	@Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
@@ -146,7 +146,7 @@ public class TeacherResource {
 		return Response.ok(genEnt).build();
 	}
 	
-	// Fetching a particular course for a specified teacher
+	// Fetching a particular student for a specified teacher
 	@GET
 	@Path("/{teacherId}/students/{studentId}")
 	@Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
