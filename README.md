@@ -17,7 +17,7 @@ JAX-RS (Jersey implementation), JPA (EclipseLink implementation), EJB, CDI, JWT 
 - Media Types that is fully supported by this RESTful API are:
 JSON, XML and MULTIPART FORM DATA (for the uploaded files)
 
-- Maven Build Tool is used for the building operation of the whole project
+- Maven Build Tool is used for the building operation (for dependencies-libraries) of the whole project
 
 - JUnit is used for testing purposes
 
