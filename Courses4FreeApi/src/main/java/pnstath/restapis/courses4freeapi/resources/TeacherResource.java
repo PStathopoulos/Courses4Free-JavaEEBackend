@@ -34,7 +34,7 @@ import pnstath.restapis.courses4freeapi.model.Student;
 import pnstath.restapis.courses4freeapi.model.Teacher;
 import pnstath.restapis.courses4freeapi.services.TeacherService;
 
-@Path("students")
+@Path("teachers")
 @RequestScoped
 public class TeacherResource {
 	
