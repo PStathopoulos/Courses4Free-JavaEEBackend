@@ -228,8 +228,8 @@ public class TeacherResource {
 		return Response.ok().build();
 	}
 
-	// Delete student from the database
-	// Only students can have access to this operation
+	// Delete teacher from the database
+	// Only teachers can have access to this operation
 	@DELETE
 	@Path("/{teacherId}")
 	@TeacherAuthWithJWT
