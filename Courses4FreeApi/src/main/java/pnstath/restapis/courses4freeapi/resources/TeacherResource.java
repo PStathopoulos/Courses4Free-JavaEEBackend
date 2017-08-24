@@ -88,7 +88,7 @@ public class TeacherResource {
 	@GET
 	@Path("/{teacherId}/courses")
 	@Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
-	public Response getCoursesByTeacher(@PathParam("teacherId") Long teacherId) {
+	public Response getAllCoursesByTeacher(@PathParam("teacherId") Long teacherId) {
 
 		// Injected service call
 		Set<CourseDTO> courseDTOs = teacherService.getCoursesByTeacher(teacherId);
@@ -127,7 +127,7 @@ public class TeacherResource {
 	@GET
 	@Path("/{teacherId}/students")
 	@Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
-	public Response getStudentsByTeacher(@PathParam("teacherId") Long teacherId) {
+	public Response getAllStudentsByTeacher(@PathParam("teacherId") Long teacherId) {
 
 		// Injected service call
 		Set<StudentDTO> studentDTOs = teacherService.getStudentsByTeacher(teacherId);
