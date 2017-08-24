@@ -87,7 +87,7 @@ public class StudentResource {
 	@GET
 	@Path("/{studentId}/courses")
 	@Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
-	public Response getCoursesByStudent(@PathParam("studentId") Long studentId) {
+	public Response getAllCoursesByStudent(@PathParam("studentId") Long studentId) {
 		
 		// Injected service call
 				Set<CourseDTO> courseDTOs = studentService.getCoursesByStudent(studentId);
